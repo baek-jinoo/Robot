@@ -85,7 +85,7 @@
 		AE4866301B069D07005DB302 /* RBTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA18A2193AD4CF00EF9E38 /* RBTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE4866311B069D07005DB302 /* RBDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA18A8193B111900EF9E38 /* RBDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE4866321B069D07005DB302 /* RBViewQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6A28C519B4BBB100A31E0D /* RBViewQuery.h */; };
-		AE4866331B069D07005DB302 /* RBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6F701619B6B3050021CBA5 /* RBMacros.h */; };
+		AE4866331B069D07005DB302 /* RBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6F701619B6B3050021CBA5 /* RBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -582,11 +582,11 @@
 				AE48662C1B069D07005DB302 /* RBTimeLapse.h in Headers */,
 				AE48662D1B069D07005DB302 /* RBConstants.h in Headers */,
 				AE48662E1B069D07005DB302 /* RBKeyboard.h in Headers */,
+				AE4866331B069D07005DB302 /* RBMacros.h in Headers */,
 				AE4866301B069D07005DB302 /* RBTouch.h in Headers */,
 				AE4866311B069D07005DB302 /* RBDSL.h in Headers */,
 				1FD34AD61B0705DA00DB7D0B /* UIEvent+RBKIF.h in Headers */,
 				AE4866321B069D07005DB302 /* RBViewQuery.h in Headers */,
-				AE4866331B069D07005DB302 /* RBMacros.h in Headers */,
 				AE4866221B069CF7005DB302 /* RBAccessibility.h in Headers */,
 				AE4866231B069CF7005DB302 /* RBCellProxy.h in Headers */,
 				AE4866241B069CF7005DB302 /* NSObject+RBExploratory.h in Headers */,
