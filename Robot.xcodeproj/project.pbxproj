@@ -49,7 +49,7 @@
 		1FC4916B193B287700C8087D /* NSObject+RBKVCUndefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4916A193B287700C8087D /* NSObject+RBKVCUndefined.m */; settings = {COMPILER_FLAGS = "-fobjc-arc-exceptions"; }; };
 		1FC4916D193BA0AD00C8087D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4916C193BA0AD00C8087D /* Default-568h@2x.png */; };
 		1FC49170193BB11B00C8087D /* NSObject+RBSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4916F193BB11B00C8087D /* NSObject+RBSwizzle.m */; };
-		1FD34AD61B0705DA00DB7D0B /* UIEvent+RBKIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD34AD41B0705DA00DB7D0B /* UIEvent+RBKIF.h */; };
+		1FD34AD61B0705DA00DB7D0B /* UIEvent+RBKIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD34AD41B0705DA00DB7D0B /* UIEvent+RBKIF.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1FD34AD71B0705DA00DB7D0B /* UIEvent+RBKIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD34AD51B0705DA00DB7D0B /* UIEvent+RBKIF.m */; };
 		1FD34AD81B0705DA00DB7D0B /* UIEvent+RBKIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD34AD51B0705DA00DB7D0B /* UIEvent+RBKIF.m */; };
 		AE4865FF1B069C66005DB302 /* Robot Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4865FE1B069C66005DB302 /* Robot Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,12 +68,12 @@
 		AE48661F1B069CA2005DB302 /* RBTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA18A3193AD4CF00EF9E38 /* RBTouch.m */; };
 		AE4866201B069CA2005DB302 /* RBDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA18A9193B111900EF9E38 /* RBDSL.m */; };
 		AE4866211B069CA2005DB302 /* RBViewQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A28C619B4BBB100A31E0D /* RBViewQuery.m */; };
-		AE4866221B069CF7005DB302 /* RBAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F848B4E197BBCED00F0966E /* RBAccessibility.h */; };
-		AE4866231B069CF7005DB302 /* RBCellProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA18841939CCA600EF9E38 /* RBCellProxy.h */; };
-		AE4866241B069CF7005DB302 /* NSObject+RBExploratory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA188E193A821C00EF9E38 /* NSObject+RBExploratory.h */; };
-		AE4866251B069CF7005DB302 /* NSObject+RBKVCUndefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC49169193B287700C8087D /* NSObject+RBKVCUndefined.h */; };
-		AE4866261B069CF7005DB302 /* NSObject+RBSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC4916E193BB11B00C8087D /* NSObject+RBSwizzle.h */; };
-		AE4866271B069CF7005DB302 /* RBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6F701319B6B2F90021CBA5 /* RBUtils.h */; };
+		AE4866221B069CF7005DB302 /* RBAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F848B4E197BBCED00F0966E /* RBAccessibility.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE4866231B069CF7005DB302 /* RBCellProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA18841939CCA600EF9E38 /* RBCellProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE4866241B069CF7005DB302 /* NSObject+RBExploratory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA188E193A821C00EF9E38 /* NSObject+RBExploratory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE4866251B069CF7005DB302 /* NSObject+RBKVCUndefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC49169193B287700C8087D /* NSObject+RBKVCUndefined.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE4866261B069CF7005DB302 /* NSObject+RBSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC4916E193BB11B00C8087D /* NSObject+RBSwizzle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE4866271B069CF7005DB302 /* RBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6F701319B6B2F90021CBA5 /* RBUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AE4866281B069D06005DB302 /* RBTableViewCellsProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3F577819BBD43C0073E308 /* RBTableViewCellsProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE4866291B069D06005DB302 /* RBCollectionViewCellsProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3F578019BBD7120073E308 /* RBCollectionViewCellsProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE48662A1B069D06005DB302 /* UINavigationBar+RBTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F45D7A719160F19005271F1 /* UINavigationBar+RBTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
